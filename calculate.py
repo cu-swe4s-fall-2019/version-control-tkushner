@@ -15,5 +15,6 @@ if __name__ == '__main__':
     x1 = int(sys.argv[1])
     x2 = int(sys.argv[2])
 
+    print('your input values are: '+str(x1)+' and '+str(x2))
     print('the sum is: '+str(ml.add(x1,x2)))
     print('first/second is: '+ str(ml.div(x1,x2)))
